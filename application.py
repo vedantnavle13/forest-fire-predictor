@@ -39,4 +39,4 @@ def predict_datapoint():
     else:
         return render_template('home.html',results_score='please enter the data first')
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
